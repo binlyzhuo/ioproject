@@ -8,9 +8,9 @@ namespace StreamProject
 {
     class Program
     {
+        //http://www.cnblogs.com/JimmyZheng/archive/2012/03/17/2402814.html
         static void Main(string[] args)
         {
-            Stream stream;
 
             byte[] buffer = null;
 
@@ -18,6 +18,11 @@ namespace StreamProject
             char[] readCharArray = null;
             byte[] readBuffer = null;
             string readString = string.Empty;
+
+            using (MemoryStream stream = new MemoryStream())
+            {
+
+            }
 
             Console.WriteLine("IO PRoject");
             Console.ReadLine();
