@@ -26,7 +26,8 @@ namespace FileWrite
             //MessageBox.Show("操作完成");
 
             string file = @"D:\2.txt";
-            FileStream fs = new FileStream(file,FileMode.Create);
+            FileStream fs = new FileStream(file,FileMode.OpenOrCreate);
+            int nextByte = fs.ReadByte();
             fs.Close();
             MessageBox.Show("操作成功");
         }
