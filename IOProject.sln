@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamProject", "StreamProj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileProperties", "FileProperties\FileProperties.csproj", "{15256A3B-F06E-4763-8BB0-79444F6DFC2C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileWrite", "FileWrite\FileWrite.csproj", "{0592018B-B858-49B1-883D-FEB60E20624E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{15256A3B-F06E-4763-8BB0-79444F6DFC2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15256A3B-F06E-4763-8BB0-79444F6DFC2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15256A3B-F06E-4763-8BB0-79444F6DFC2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0592018B-B858-49B1-883D-FEB60E20624E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0592018B-B858-49B1-883D-FEB60E20624E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0592018B-B858-49B1-883D-FEB60E20624E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0592018B-B858-49B1-883D-FEB60E20624E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
