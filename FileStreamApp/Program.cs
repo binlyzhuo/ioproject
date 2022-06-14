@@ -56,6 +56,7 @@ namespace FileStreamApp
             FileHelper.WriteBinary();
             FileHelper.ReadBinary();
             LogHelper.Test();
+            StreamWriterHelper.WriteLineText();
 
             Console.ReadLine();
         }
