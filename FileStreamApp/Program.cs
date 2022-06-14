@@ -62,6 +62,9 @@ namespace FileStreamApp
 
             StreamReaderHelper.ReadAllText();
 
+            StringHelper.ReadChar();
+            StringHelper.WriteChar();
+
             Console.ReadLine();
         }
     }
