@@ -3,10 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamProject", "StreamProject\StreamProject.csproj", "{C13FAC6C-F570-459A-8400-C9FBE07647F3}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileWrite", "FileWrite\FileWrite.csproj", "{0592018B-B858-49B1-883D-FEB60E20624E}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileStreamApp", "FileStreamApp\FileStreamApp.csproj", "{E37AE101-76BF-4ACE-80CE-7F4352CD8648}"
 EndProject
 Global
@@ -15,14 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C13FAC6C-F570-459A-8400-C9FBE07647F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C13FAC6C-F570-459A-8400-C9FBE07647F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C13FAC6C-F570-459A-8400-C9FBE07647F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C13FAC6C-F570-459A-8400-C9FBE07647F3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0592018B-B858-49B1-883D-FEB60E20624E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0592018B-B858-49B1-883D-FEB60E20624E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0592018B-B858-49B1-883D-FEB60E20624E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0592018B-B858-49B1-883D-FEB60E20624E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E37AE101-76BF-4ACE-80CE-7F4352CD8648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E37AE101-76BF-4ACE-80CE-7F4352CD8648}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E37AE101-76BF-4ACE-80CE-7F4352CD8648}.Release|Any CPU.ActiveCfg = Release|Any CPU
