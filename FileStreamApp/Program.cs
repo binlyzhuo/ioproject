@@ -32,6 +32,7 @@ namespace FileStreamApp
             //}
 
             // read file
+            /*
             FileStream file = File.Open(@"e:\stream\1.txt",FileMode.Open);
             byte[] array = new byte[file.Length];
             file.Read(array, 0, array.Length);
@@ -49,8 +50,12 @@ namespace FileStreamApp
             // 清空缓冲区
             writeFile.Flush();
             writeFile.Close();
-
+            */
             //
+
+            FileHelper.WriteBinary();
+            FileHelper.ReadBinary();
+
             Console.ReadLine();
         }
     }
