@@ -60,6 +60,8 @@ namespace FileStreamApp
             StreamWriterHelper.WriteLineText();
             StreamWriterHelper.WriteLineAsync();
 
+            StreamReaderHelper.ReadAllText();
+
             Console.ReadLine();
         }
     }
