@@ -26,5 +26,13 @@ namespace FileStreamApp
                 outputFile.WriteLine("Fourth Line");
             }
         }
+
+        public static async void WriteLineAsync()
+        {
+            using (StreamWriter outputFile = new StreamWriter("WriteTextAsync.txt", true))
+            {
+               await outputFile.WriteAsync("This is a sentence.");
+            }
+        }
     }
 }

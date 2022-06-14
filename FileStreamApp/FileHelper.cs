@@ -44,5 +44,14 @@ namespace FileStreamApp
                 }
             }
         }
+
+        public static void WriteAppendText()
+        {
+            string file = "WriteFile2.txt";
+            string text = "First line" + Environment.NewLine;
+            File.WriteAllText(file, text);
+            string[] lines = { "New line 1", "New line 2" };
+            File.AppendAllLines(file, lines);
+        }
     }
 }
