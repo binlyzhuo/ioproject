@@ -51,6 +51,7 @@
     <Compile Include="StreamReaderHelper.cs" />
     <Compile Include="StreamWriterHelper.cs" />
     <Compile Include="StringHelper.cs" />
+    <Compile Include="TextReaderHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
