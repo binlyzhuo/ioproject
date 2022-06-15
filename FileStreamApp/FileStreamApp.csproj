@@ -46,7 +46,9 @@
   <ItemGroup>
     <Compile Include="FileHelper.cs" />
     <Compile Include="FileStreamHelper.cs" />
+    <Compile Include="FileStreamTest.cs" />
     <Compile Include="FormatProviderHelper.cs" />
+    <Compile Include="IFileConfig.cs" />
     <Compile Include="LogHelper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -55,6 +57,7 @@
     <Compile Include="StreamWriterTest.cs" />
     <Compile Include="StringHelper.cs" />
     <Compile Include="TextReaderHelper.cs" />
+    <Compile Include="UpFileSingleTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

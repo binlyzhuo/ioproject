@@ -71,8 +71,10 @@ namespace FileStreamApp
 
             //FormatProviderHelper.Test();
 
-            StreamWriterTest streamWriterTest = new StreamWriterTest(Encoding.UTF8,"StreamWriter.txt");
-            streamWriterTest.WriteSomethingToFile();
+            //StreamWriterTest streamWriterTest = new StreamWriterTest(Encoding.UTF8,"StreamWriter.txt");
+            //streamWriterTest.WriteSomethingToFile();
+            FileStreamTest fsTest = new FileStreamTest();
+            fsTest.Create();
             Console.WriteLine("complete~");
             Console.ReadLine();
         }
