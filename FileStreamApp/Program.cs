@@ -53,17 +53,19 @@ namespace FileStreamApp
             */
             //
 
-            FileHelper.WriteBinary();
-            FileHelper.ReadBinary();
-            FileHelper.WriteAppendText();
-            LogHelper.Test();
-            StreamWriterHelper.WriteLineText();
-            StreamWriterHelper.WriteLineAsync();
+            //FileHelper.WriteBinary();
+            //FileHelper.ReadBinary();
+            //FileHelper.WriteAppendText();
+            //LogHelper.Test();
+            //StreamWriterHelper.WriteLineText();
+            //StreamWriterHelper.WriteLineAsync();
 
-            StreamReaderHelper.ReadAllText();
+            //StreamReaderHelper.ReadAllText();
 
-            StringHelper.ReadChar();
-            StringHelper.WriteChar();
+            //StringHelper.ReadChar();
+            //StringHelper.WriteChar();
+
+            StreamReaderHelper.ByteRead();
 
             Console.ReadLine();
         }
