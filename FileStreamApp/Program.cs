@@ -69,7 +69,11 @@ namespace FileStreamApp
             //TextReaderHelper.TextReader();
             //FileStreamHelper.ReadFile();
 
-            FormatProviderHelper.Test();
+            //FormatProviderHelper.Test();
+
+            StreamWriterTest streamWriterTest = new StreamWriterTest(Encoding.UTF8,"StreamWriter.txt");
+            streamWriterTest.WriteSomethingToFile();
+            Console.WriteLine("complete~");
             Console.ReadLine();
         }
     }

@@ -52,6 +52,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StreamReaderHelper.cs" />
     <Compile Include="StreamWriterHelper.cs" />
+    <Compile Include="StreamWriterTest.cs" />
     <Compile Include="StringHelper.cs" />
     <Compile Include="TextReaderHelper.cs" />
   </ItemGroup>
