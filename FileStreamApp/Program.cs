@@ -73,8 +73,11 @@ namespace FileStreamApp
 
             //StreamWriterTest streamWriterTest = new StreamWriterTest(Encoding.UTF8,"StreamWriter.txt");
             //streamWriterTest.WriteSomethingToFile();
-            FileStreamTest fsTest = new FileStreamTest();
-            fsTest.Create();
+            //FileStreamTest fsTest = new FileStreamTest();
+            //fsTest.Create();
+
+            UpFileSingleTest upTest = new UpFileSingleTest();
+            upTest.Upload();
             Console.WriteLine("complete~");
             Console.ReadLine();
         }
